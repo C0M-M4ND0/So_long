@@ -1,3 +1,3 @@
 # So_long
 This project is a very small 2D game ...
-![screen Shot]/Users/oabdelha/Desktop/Screen\ Shot\ 2022-01-06\ at\ 10.27.17\ AM.png 
+<img width="1472" alt="Screen Shot 2022-01-06 at 10 27 17 AM" src="https://user-images.githubusercontent.com/94039533/148361144-19443763-df42-4da3-b761-4aa15ca87a46.png">
