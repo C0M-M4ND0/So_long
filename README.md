@@ -1,0 +1,3 @@
+# So_long
+This project is a very small 2D game ...
+![screen Shot]/Users/oabdelha/Desktop/Screen\ Shot\ 2022-01-06\ at\ 10.27.17\ AM.png 
