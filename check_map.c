@@ -79,9 +79,9 @@ int	ft_check_map_f_2(char **str)
 
 int	ft_check_map(char *map, t_data *v)
 {
-	if (cheking(map, ".ber") == 0)
-		return (printf("ERROR (map extension must be '.ber')\n"), 1);
 	v->fd = open(map, O_RDONLY);
+	if (cheking(map, ".ber") == 0 || v->fd == -1)
+		return (printf("ERROR (Map does not exist)\n"), 1);
 	while (1)
 	{
 		v->line = get_line(v->fd);
