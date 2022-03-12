@@ -18,8 +18,9 @@ make
 Simply run it with :
 
 ```
-./so_long
+./so_long map.ber
 ```
+###### Note : you can modify the map ...
 #### ``Note : The Bonus Part is added to Mandatory Part``
 
 
