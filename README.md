@@ -11,6 +11,9 @@ Bonus : 25/25
 ### How to use it
 
 Using ``make`` will create the ``so_long`` executable.
+```
+make
+```
 
 Simply run it with :
 
