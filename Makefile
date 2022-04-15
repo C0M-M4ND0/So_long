@@ -6,7 +6,7 @@
 #    By: oabdelha <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 12:17:54 by oabdelha          #+#    #+#              #
-#    Updated: 2022/03/03 12:23:41 by oabdelha         ###   ########.fr        #
+#    Updated: 2022/04/15 16:11:05 by oabdelha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,6 @@ INCLUDE = so_long.h
 all: $(NAME)
 
 $(NAME): $(CNVRT) $(INCLUDE)
-	@ar rcs $(NAME) $(CNVRT) $(INCLUDE)
 	@cc $(FLAG) $(SRC) $(FLAG_MLX) -o so_long
 
 %.o : %.c $(INCLUDE)
