@@ -6,7 +6,7 @@
 /*   By: oabdelha <oabdelha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/02 10:36:39 by oabdelha          #+#    #+#             */
-/*   Updated: 2022/01/06 10:09:08 by oabdelha         ###   ########.fr       */
+/*   Updated: 2022/05/17 19:08:54 by oabdelha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ int	ft_check_map_f_2(char **str)
 	j = 0;
 	if (check_line(str[0]) == 1)
 		return (1);
-	while (str[i] && str[i + 1])
+	while (str[i + 1])
 	{
 		j = 0;
 		while (str[i][j])
